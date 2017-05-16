@@ -9,27 +9,12 @@ draw_set_font(fntMenu);
 
 switch (btnState) {
 	case STATE.idle:
-		draw_rectangle_colour(x - btnPadding - string_width(objMenu.maxText) / 2,
-			y - btnPadding - string_height(objMenu.maxText) / 2,
-			x + btnPadding + string_width(objMenu.maxText) / 2,
-			y + btnPadding + string_height(objMenu.maxText) / 2,
-			c_black,
-			c_black,
-			c_gray,
-			c_gray,
-			false);
+		draw_rectangle_colour(x - btnWidth / 2, y - btnHeigth / 2, x + btnWidth / 2, y + btnHeigth / 2,
+			c_black, c_black, c_gray, c_gray, false);
 		break;
 	case STATE.hover:
-	
-		draw_rectangle_colour(x - btnPadding - string_width(objMenu.maxText) / 2,
-			y - btnPadding - string_height(objMenu.maxText) / 2,
-			x + btnPadding + string_width(objMenu.maxText) / 2,
-			y + btnPadding + string_height(objMenu.maxText) / 2,
-			c_lime,
-			c_black,
-			c_gray,
-			c_gray,
-			false);		
+		draw_rectangle_colour(x - btnWidth / 2, y - btnHeigth / 2, x + btnWidth / 2, y + btnHeigth / 2,
+			c_lime, c_black, c_gray, c_gray, false);		
 		break;
 	case STATE.clicked:
 		break;
