@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "12bb9168-32cb-43c1-a8f1-befc1a91d6f2",
+            "Value": {
+                "id": "9959dfe0-214c-441f-8230-9cbf0a75e3f9",
+                "resourcePath": "sprites\\sprButton\\sprButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "147f8093-2954-488c-a2b6-c7c83a1246d4",
             "Value": {
                 "id": "e47805c7-afb2-4702-afc3-742e2ac3867d",
@@ -79,10 +87,18 @@
             }
         },
         {
+            "Key": "5ed33143-f33a-4d5b-8b5f-c116d2015482",
+            "Value": {
+                "id": "0028ebf6-4c86-4bab-bffa-31dfd482c25c",
+                "resourcePath": "objects\\objButton\\objButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "678a3c85-5841-4701-b3f7-5afc02d09cdd",
             "Value": {
                 "id": "fdbd7d96-33b6-44be-a147-8a37d36bb1a5",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rmMenu\\rmMenu.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -100,6 +116,14 @@
                 "id": "9f12dca3-1e71-4c92-918d-a0d6cf4903c4",
                 "resourcePath": "views\\937fa560-2c8c-47cd-bafa-6a1d4e3b73c3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9e4e980f-1232-4615-b6ac-53f6ff73cf94",
+            "Value": {
+                "id": "2cbc4712-cc4b-4b50-8aae-997db7f77040",
+                "resourcePath": "objects\\objMenu\\objMenu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -140,6 +164,14 @@
                 "id": "31f6865f-2282-4c3c-8ca9-16fcbef02e2f",
                 "resourcePath": "views\\c1ac5396-1842-421c-b522-4a12c5f957b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c55dc87c-2419-4a07-b9d5-919dcd74d1d8",
+            "Value": {
+                "id": "85763ca0-39e7-4a62-b413-22a190dbf102",
+                "resourcePath": "fonts\\fntMenu\\fntMenu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
