@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "2166f775-a915-4c3b-9de7-fdc3229aafa5",
+            "Value": {
+                "id": "7995a306-85a0-4fad-8738-187fb6f13117",
+                "resourcePath": "notes\\ToDo.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "36a8ef6e-3cb7-40f4-bc4c-ebdd5ac2be9d",
             "Value": {
                 "id": "ac2c8f3f-63a7-42b2-bf58-ce718f1cf85a",
@@ -100,6 +108,14 @@
                 "id": "fdbd7d96-33b6-44be-a147-8a37d36bb1a5",
                 "resourcePath": "rooms\\rmMenu\\rmMenu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "72f83606-4c0c-4d57-9c88-a6cfbd96fdd0",
+            "Value": {
+                "id": "06d9fed3-ac43-432a-a748-464ea0ccaba3",
+                "resourcePath": "notes\\Bugs.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
