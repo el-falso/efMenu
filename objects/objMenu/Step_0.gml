@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description set button states
 
 x = mouse_x;
 y = mouse_y;

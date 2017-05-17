@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description get max text for button width, create buttons
 index = 0;
 
 menuItem[0] = "Play";

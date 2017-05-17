@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description buttons using states
 
 
 draw_set_halign(fa_center);
