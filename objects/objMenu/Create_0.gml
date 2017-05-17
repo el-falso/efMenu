@@ -2,9 +2,11 @@
 // You can write your code in this editor
 index = 0;
 
-menuItem[0] = "Start Game";
+menuItem[0] = "Play";
 menuItem[1] = "Options";
 menuItem[2] = "Quit";
+
+menuSpacing = 100;
 
 maxLength = 0;
 maxText = "";
@@ -19,5 +21,5 @@ for (i = 0; i < array_length_1d(menuItem); i++) {
 
 for (i = 0; i < array_length_1d(menuItem); i++) {
 	index = i;
-	instance_create_depth(room_width / 2, 200 + i * 200, 0, objButton);
+	instance_create_depth(room_width / 2, 200 + i * menuSpacing, 0, objButton);
 }

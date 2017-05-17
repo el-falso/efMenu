@@ -10,11 +10,13 @@ draw_set_font(fntMenu);
 switch (btnState) {
 	case STATE.idle:
 		draw_rectangle_colour(x - btnWidth / 2, y - btnHeigth / 2, x + btnWidth / 2, y + btnHeigth / 2,
-			c_black, c_black, c_gray, c_gray, false);
+			btnCol1, btnCol1, btnCol2, btnCol2, false);
+			draw_set_color(btnTextCol);
 		break;
 	case STATE.hover:
 		draw_rectangle_colour(x - btnWidth / 2, y - btnHeigth / 2, x + btnWidth / 2, y + btnHeigth / 2,
-			c_lime, c_black, c_gray, c_gray, false);		
+			btnCol1Hov, btnCol1Hov, btnCol2Hov, btnCol2Hov, false);
+			draw_set_color(btnTextColHov);
 		break;
 	case STATE.clicked:
 		break;
