@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2382261c-b1d2-4890-997c-dad0a96619be",
+            "Value": {
+                "id": "2ee3650c-e491-4994-adc0-9042216c541c",
+                "resourcePath": "rooms\\rmOptions\\rmOptions.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "36a8ef6e-3cb7-40f4-bc4c-ebdd5ac2be9d",
             "Value": {
                 "id": "ac2c8f3f-63a7-42b2-bf58-ce718f1cf85a",
@@ -148,6 +156,22 @@
                 "id": "a259f9d0-36ef-482b-81df-39427510d4c8",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9914c0a-0982-405b-8d58-715f7a461fb9",
+            "Value": {
+                "id": "b866c5b2-53c5-4206-93e7-ed8f96ca6523",
+                "resourcePath": "rooms\\rmGame\\rmGame.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ab784664-12f3-4420-a031-65d5263ef888",
+            "Value": {
+                "id": "a56b33de-a50a-42b2-bca3-fd29cf34cb34",
+                "resourcePath": "scripts\\scrGameEnd\\scrGameEnd.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -240,7 +264,7 @@
         }
     ],
     "script_order": [
-        
+        "ab784664-12f3-4420-a031-65d5263ef888"
     ],
     "tutorial": ""
 }

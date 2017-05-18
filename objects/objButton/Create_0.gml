@@ -11,7 +11,9 @@ draw_set_font(fntMenu);
 // Button Properties
 btnIndex = objMenu.index;
 btnState = STATE.idle;
-btnName = objMenu.menuItem[btnIndex];
+btnName = objMenu.menuItem[0, btnIndex];
+btnActionType = objMenu.menuItem[1, btnIndex];
+btnAction = objMenu.menuItem[2, btnIndex];
 btnPaddingHor = 40;
 btnPaddingVer = 10;
 btnWidth = 2 * btnPaddingHor + string_width(objMenu.maxText);

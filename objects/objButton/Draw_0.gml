@@ -18,6 +18,9 @@ switch (btnState) {
 			draw_set_color(btnTextColHov);
 		break;
 	case STATE.clicked:
+		draw_rectangle_colour(x - btnWidth / 2, y - btnHeigth / 2, x + btnWidth / 2, y + btnHeigth / 2,
+			c_red, btnCol1Hov, btnCol2Hov, btnCol2Hov, false);
+			draw_set_color(btnTextColHov);
 		break;
 	default:
 		break;
